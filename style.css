@@ -1,0 +1,298 @@
+
+.main{
+	width: 960px;
+	margin: 0 auto;
+}
+
+
+
+
+.header{
+	width: 100%;
+	height: auto;
+	display: inline-block;
+	
+}
+
+.heading{
+width: 20%;
+
+float: left;
+
+box-sizing: border-box;
+font-family: pacifico;
+}
+.menu{
+	width: 60%;
+	
+	float: right;
+	box-sizing: border-box;
+   
+
+}
+.menu ul{
+	list-style: none;
+	
+}
+.menu ul li{
+	display: inline-block;
+	margin:  5px;
+	
+    font-size: 12px;
+    font-weight: lighter;
+    color: #bdbdbd;
+    font-family: bebas;
+}
+
+
+.menu ul li span{
+	display: block;
+	    font-weight: lighter;
+    font-size: 20px;
+    color: #474747;
+    font-weight: bold;
+    font-family: bebas;
+   }
+
+
+   .slider{
+   margin: 0;
+	padding: 0;
+	width: 100%;
+	position: relative;
+   	
+   }
+
+   .slider1{
+   width:100%;
+   
+   }
+
+   
+   .slider2{
+   	
+   	background-color: #404040;
+	position: absolute;
+	left: 0;
+	bottom: 88px;
+	width: 23%;
+	padding: 10px 0;
+	padding-left: 10px;
+	font-family: bebas;
+   
+
+   }
+
+.slider2 h4 {
+	color: #9a9a9a;
+	margin: 0;
+	padding: 0;
+}
+
+.slider2 h2 {
+	color: white;
+	margin: 0;
+	padding: 0;
+}
+.slider4{
+	
+	position: absolute;
+	right: 470px;
+	bottom: 80px;
+}
+.slider5{
+
+	position: absolute;
+	right: 10px;
+    bottom: 100px;
+    color: white;
+}
+
+
+   .slider3{
+   	
+   	
+   	padding-left: 10px;
+   	margin-top:-15px;
+   	width:100%;
+    color: #474747;
+    background-color: #f5f5f5;
+	 
+
+   }
+   .slider3 h3{
+   	font-family: bebas;
+   }
+
+
+.project{
+	width: 100%;
+	
+	display: inline-block;
+	padding-top:30px;
+}
+.one{
+	width: 33.33%;
+	height: auto;
+	
+	float: left;
+	box-sizing: border-box;
+	padding: 5px 10px;
+}
+
+.header2{
+	width:100%;
+	display: inline-block;
+
+}
+.icon{
+	width:20%;
+	
+	box-sizing: border-box;
+	float:left;
+	font-size:35px;
+	color: #968f8f;
+}
+.name{
+	width: 70%;
+	
+	box-sizing: border-box;
+	float:right;
+	color: #968f8f;
+	font-family: bebas;
+}
+.name h3{
+	margin: 0;
+	padding: 0;
+}
+.more{
+	width:10%;
+	
+	box-sizing: border-box;
+	float:left;
+	font-size:35px;
+	color: #968f8f;
+	padding:0;
+	margin: 0;
+}
+.text{
+	font-family: bebas;
+	color:#968f8f;
+}
+.paragraph{
+	text-align: justify;
+}
+
+
+.two{
+	width: 33.33%;
+	height: auto;
+	
+	float: left;
+	box-sizing: border-box;
+	padding: 5px 10px;
+}
+.three{
+	width: 33.33%;
+	height: auto;
+	
+	float: right;
+	box-sizing: border-box;
+	padding: 5px 10px;
+}
+.work{
+	width:100%;
+	padding-top:30px;
+}
+
+.work_title {
+	text-align: center;
+	padding: 0;
+	background: #e5e5e5;
+	font-family: bebas;
+}
+
+.work_title h1{
+	color: #404040;
+	margin: 0;
+	padding:0;
+	font-size: 25px;
+}
+
+
+.news{
+	width:100%;
+	display: inline-block;
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+}
+.news1{
+width:22.88%;
+float:left;
+padding: 10px;
+
+}
+.news1 h3{
+	font-family: bebas;
+}
+.news2{
+width:22.88%;
+float:left;
+padding: 10px;
+
+}
+.news2 h3{
+	font-family: bebas;
+}
+.news3{
+width:22.88%;
+float:left;
+padding: 10px;
+
+}
+.news3 h3{
+	font-family: bebas;
+}
+.news4{
+width:22.88%;
+float:right;
+padding: 10px;
+
+}
+.news4 h3{
+	font-family: bebas;
+}
+
+.footer{
+	width: 100%;
+	background-color: #e5e5e5;
+	
+	padding: 10px 10px;
+	overflow: hidden;
+}
+.footer1{
+	width: 40%;
+	float: left;
+}
+.footer2{
+	width: 30%;
+	float: right;
+}
+
+@font-face {
+ font-family: pacifico;
+ src: url("Pacifico.eot") 
+}
+@font-face {
+ font-family:pacifico;
+ src: url("Pacifico.ttf")
+}
+@font-face {
+ font-family:bebas;
+ src: url("bebas.eot") 
+}
+@font-face {
+ font-family:bebas;
+ src: url("bebas.TTF") 
+}
